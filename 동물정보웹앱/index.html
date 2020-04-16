@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동물정보웹앱</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- 
+        1.동물이미지
+        크기:400x400
+        이름:
+        dog01~06.jpg
+        cat01~06.jpg
+        bird01~06.jpg
+        /images 폴더에 저장
+        2.내부스타일 -> 외부스타일(css/style.css)
+
+     -->
+    <div id="wrap">
+        <header>
+            <h1>Pets</h1>
+            <nav>
+                <ul>
+                    <li ><a href="./index.html" class="selected">dogs</a></li>
+                    <li><a href="./cats.html">cats</a></li>
+                    <li><a href="./birds.html">birds</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>dogs</h1>
+            <ul id="pet_list">
+                <li>
+                    <img src="images/dog01.jpg" alt="">
+                    <p class="name">Boo</p>
+                </li>
+
+                <li>
+                    <img src="images/dog02.jpg" alt="">
+                    <p class="name">Kiki</p>
+                </li>
+
+                <li>
+                    <img src="images/dog03.jpg" alt="">
+                    <p class="name">Zeze</p>
+                </li>
+
+                <li>
+                    <img src="images/dog04.jpg" alt="">
+                    <p class="name">Da-rang</p>
+                </li>
+
+                <li>
+                    <img src="images/dog05.jpg" alt="">
+                    <p class="name">Gupy</p>
+                </li>
+
+                <li>
+                    <img src="images/dog06.jpg" alt="">
+                    <p class="name">Merry</p>
+                </li>
+            </ul>
+        </section>
+    </div><!--end wrap-->
+</body>
+</html>
